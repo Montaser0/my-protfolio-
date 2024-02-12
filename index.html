@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- UNICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Portfolio | Montaser</title>
+  </head>
+
+  <body>
+    <div class="container-hero">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Montaser</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            Hire Me <i class="uil uil-github-alt"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-name">
+              <p><span class="start-name">I'm</span> Software Energiner</p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Quickly design and customize responsive mobile-first sites with
+                Bootstrap, the world’s most popular front-end open source
+                toolkit, featuring Sass variables and mixins, responsive grid
+                system, extensive prebuilt components, and powerful JavaScript
+                plugins.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn">
+                Download CV <i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon"><i class="uil uil-instagram"></i></div>
+              <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+              <div class="icon"><i class="uil uil-twitter"></i></div>
+              <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="./imags/profile.png" alt="avatar" />
+            </div>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row-css">
+            <div class="col-css">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I am well-versed in HTML, CSS and JavaScript , and other
+                  cutting edge frameworks and libraries,which allows me to
+                  implement interactive features.
+                </p>
+                <div class="about-btn">
+                  <button class="btn">
+                    Download CV <i class="uil uil-import"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-css mobile-media">
+              <div class="skills-box mobile-media-skills">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list mobile-media-skills">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>JAVA</span>
+                  <span>C++</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>SQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+              <i class="uil uil-briefcase-alt"></i>
+              <h3>Completed</h3>
+              <label>5+ Finished Projects</label>
+            </div>
+            <div class="project-box">
+              <i class="uil uil-users-alt"></i>
+              <h3>Clients</h3>
+              <label>5+ Happy Clients</label>
+            </div>
+            <div class="project-box">
+              <i class="uil uil-award"></i>
+              <h3>Experience</h3>
+              <label>2+ Years in the field</label>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row-css">
+            <div class="col-css">
+              <div class="contact-info">
+                <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                <p>
+                  <i class="uil uil-envelope"></i> Email: Montaser8@gmail.com
+                </p>
+                <p><i class="uil uil-phone"></i> +90 531 692 49 44</p>
+              </div>
+            </div>
+            <div class="col-css">
+              <div class="form-control-1">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" />
+                  <input type="text" class="input-field" placeholder="Email" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn">
+                    Send <i class="uil uil-message"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!-- --------------- Bootstrap FOOTER --------------- -->
+    <div class="container-hero">
+      <footer class="py-3 my-4">
+        <div class="top-footer">
+          <p>Montaser Haj Omar</p>
+        </div>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="#home" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link px-2 text-body-secondary"
+              >Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link px-2 text-body-secondary">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link px-2 text-body-secondary"
+              >Contact</a
+            >
+          </li>
+        </ul>
+        <!-- icons  -->
+        <div class="footer-social-icons">
+          <div class="icon"><i class="uil uil-instagram"></i></div>
+          <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+          <div class="icon"><i class="uil uil-twitter"></i></div>
+          <div class="icon"><i class="uil uil-github-alt"></i></div>
+        </div>
+        <div class="bottom-footer">
+          <p></p>
+        </div>
+        <p class="text-center text-body-secondary">
+          Copyright &copy;
+          <a href="#home" style="text-decoration: none">Montaser</a> - All
+          rights reserved
+        </p>
+      </footer>
+    </div>
+    <!-- bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
+  </body>
+</html>
